@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Introduction
 
-## Getting Started
+Welcome to the future of utility management with your **Rokswood Group Smart IoT Meter**. These group of manuals provides essential information for safe and efficient operation of your device.
 
-First, run the development server:
+The Rokswood Group offers a range of intelligent IoT meters designed to accurately measure your consumption of various utilities, including water, gas, and electricity. Our meters provide real-time insights and convenient management of your utility services.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Our Meter Range:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Gas Meters
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Smart Meter RG2 (QK2000):** This battery-powered gas meter measures consumption in kilograms (KG). It does not have a display screen or keypad, but features an indicator light. Current usage and credit balance are viewed through the Rokswood Group mobile app. Recharging is done remotely (over the air). To wake up the meter for an update, press and hold the red trigger button until the red indicator light appears, wait 15 seconds, then press and hold the trigger again for 5 seconds.
+- **Smart Meter RG3 (ZYMSG):** Also a battery-powered gas meter, the RG3 measures consumption in kilograms (KG) and features a display screen but no keypad. It does not have an indicator light. Current usage and credit balance can be viewed on the meter's display screen or through the Rokswood Group mobile app. Recharging is remote (over the air). To trigger a wake-up, press and hold the softtouch trigger for 3 seconds; the display will show "S - Send" when successfully triggered.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Power Meters
 
-## Learn More
+- **Smart Meter RP1, Smart Meter RP1 300/5A, and Smart Meter RP1 - 300/80A (Acrel):** These power meters measure consumption in kilowatt-hours (KWh) and feature a display screen and an indicator light, but no keypad. They are not battery-powered and are always online, ensuring instant recharges. Current usage and credit balance can be viewed on the meter's display screen or through the Rokswood Group mobile app.
+- **Smart Meter RP2 (Stron):** This battery-powered power meter measures consumption in kilowatt-hours (KWh) and features both a display screen and a keypad. It does not have an indicator light. Current usage and credit balance are viewed on the meter's display screen. Recharging is token-based, and no wake-up trigger is required.
+- **Smart Meter RP3 (Jiangsu):** This power meter measures consumption in kilowatt-hours (KWh) and features a display screen and an indicator light, but no keypad. It is not battery-powered and is always online, ensuring instant recharges. Current usage and credit balance can be viewed on the meter's display screen or through the Rokswood Group mobile app.
 
-To learn more about Next.js, take a look at the following resources:
+### Water Meters
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Smart Meter RW1 (CAT14G):** This battery-powered water meter measures consumption in liters (Ltr). It does not have a display screen or keypad, but features an indicator light. Current usage and credit balance are viewed through the Rokswood Group mobile app. Recharging is done remotely (over the air). To wake up the meter for an update, press and hold the soft touch trigger for 5 seconds until the red indicator light illuminates, then release and immediately tap the soft touch trigger once.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Important Safety Information
 
-## Deploy on Vercel
+Please read and understand these safety guidelines before operating your meter.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Professional Installation:** Your Rokswood Group meter should only be installed and serviced by qualified personnel. Do not attempt to open or modify the meter yourself.
+- **Environmental Conditions:** Ensure the meter is installed in a location that meets recommended environmental specifications (temperature, humidity). Avoid exposing the meter to direct sunlight, extreme heat, or excessive moisture.
+- **Physical Damage:** Protect the meter from physical impact or damage. If the meter appears damaged, contact Rokswood Group support immediately.
+- **Children and Pets:** Keep children and pets away from the meter to prevent accidental damage or tampering.
+- **Authorized Repairs:** Any repairs or maintenance must be performed by Rokswood Group authorized technicians. Unauthorized repairs will void your warranty.
+- **Cleaning:** To clean the meter, use a soft, dry cloth. Do not use abrasive cleaners, solvents, or water directly on the meter.
+- **Cable Integrity:** Periodically inspect any visible cables connected to the meter for signs of wear or damage. If any damage is observed, contact Rokswood Group support.
